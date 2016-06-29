@@ -1,14 +1,14 @@
 #!/bin/bash
 
 url="https://betadownload.jetpack.me/jetpack.zip"
-opt=$1
+version=$1
 swap=$2
 
-if [ "rc" == "$1" ]; then
+if [ "rc" == "$version" ]; then
 	url="https://betadownload.jetpack.me/rc/jetpack.zip"
 fi
 
-if [ "repo" == "$1" ]; then
+if [ "repo" == "$version" ]; then
 	url="jetpack"
 fi
 
